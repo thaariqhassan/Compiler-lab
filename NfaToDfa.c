@@ -139,8 +139,7 @@ int main()
     {
         for(int j = 0; j < n_inputs; j++)
         {
-            printf("Number of transitions from q%d on input %d: ",
-                   i, j);
+            printf("Number of transitions from q%d on input %d: ",i, j);
 
             scanf("%d", &trans_count[i][j]);
 
